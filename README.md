@@ -21,6 +21,7 @@ npx prisma db push
 # Run web server
 npm run dev
 ```
+If necessary, you can change the category of quotes, or the port for Mysql in the `.env` file
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
