@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project like a test task for Sergii.
 [![NODE](https://img.shields.io/badge/NODE-21.2.0-green.svg?style=flat-square&logo=nodedotjs)](https://nodejs.org/)
 [![NPM](https://img.shields.io/badge/NPM-10.2.3-red.svg?style=flat-square&logo=npm)](https://www.npmjs.com/)
 [![REACTJS](https://img.shields.io/badge/ReactJS-blue.svg?style=flat-square&logo=react)](https://react.dev/)
-[![NEXTJS](https://img.shields.io/badge/NextJS-grey.svg?style=flat-square&logo=nextdotjs)](https://react.dev/)
+[![NEXTJS](https://img.shields.io/badge/NextJS-grey.svg?style=flat-square&logo=nextdotjs)](https://nextjs.org/)
 [![Docker](https://img.shields.io/badge/Docker-white.svg?style=flat-square&logo=docker)](https://www.docker.com/)
 
 ## Getting Started
