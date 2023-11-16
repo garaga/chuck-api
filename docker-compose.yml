@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  database:
+    image: 'mysql:latest'
+    environment:
+      MYSQL_ROOT_PASSWORD: norris
+      MYSQL_DATABASE: chuck
+    ports:
+      - '3306'
+
+volumes:
+  database_data:
