@@ -5,13 +5,15 @@ import {PrismaClient, Prisma} from '@prisma/client'
 
 const prisma = new PrismaClient()
 
-
-// @ts-ignore
 export default async function Home() {
+    /** Retrieve Init quote value **/
     const initQuote = await getQuote();
+    /** Register new user entry in DB **/
     const user = await prisma.user.create({data: {}})
+    /** Retrieve user count value **/
     const userCount = await prisma.user.count()
 
+    /** Return component layout **/
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-24 w-full">
             <div className="relative flex place-items-left w-3/6">
